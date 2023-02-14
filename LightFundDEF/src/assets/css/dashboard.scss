@@ -1,0 +1,224 @@
+    
+
+*{
+    margin: 0%;
+    padding: 0%;
+  
+  }
+
+
+body{
+    background-color: #e8e8e8;
+}
+  
+  
+  #sidebar{
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgb(0, 54, 161);
+  }
+  
+  
+  
+  #dashLogo {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 80% !important;
+    padding-bottom: 10%;
+    border-bottom: 1px solid rgb(125, 125, 125);
+  }/*# sourceMappingURL=dashboard.css.map */
+  
+  
+  .sidebar-item{
+  
+    margin-left: 0%;
+    width: 100%;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    left: 50%!important;
+    padding: 10% 0% 10% 0%;
+    
+
+    
+    
+  }
+
+  .sidebar-item:hover{
+    background-color: rgba(80, 80, 213, 0.772);
+
+    cursor: pointer;
+  }
+  
+  
+  #side-items{
+    margin-top: 10%;
+  }
+  
+  .active{
+    background-color: rgb(74, 74, 255);
+    font-weight: bold;
+    
+  }
+
+  .active:hover{
+    background-color: rgb(74, 74, 255);
+  }
+
+
+  .logosBar{
+    padding: 0%;
+    
+  }
+
+
+#navbar{
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(236, 236, 236);
+    z-index: 1;
+    border-bottom: 1px solid #939393bc;
+
+}
+
+
+.nav-item{
+    font-weight: normal;
+    font-size: 2.1vh;
+    color: rgb(88, 88, 88);
+    width: 100%;
+    height: max-content;
+}
+
+#accDetails{
+    position: absolute;
+    width: 50%;
+    left: 15%;
+    top: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.accNumvar{
+    background-color: rgb(107, 107, 236);
+    
+    padding: 0.6% 1.5% 0.6% 1.5%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.7vh;
+}
+
+.accNumvar:hover{
+    cursor: pointer;
+    background-color: rgb(54, 54, 157);
+}
+
+
+#dashName{
+    position: absolute;
+    width: 15%;
+    left: 85%;
+    top: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#table1 {
+    position: absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 28%;
+    left: 15%;
+    top: 12%;
+    background-color: #fff;
+    color: rgb(124, 124, 124);
+    font-size: 1.65vh;
+    font-weight: 500;
+    box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.014);
+  }
+  
+  td, th {
+    border: 1px solid #d9d9d9;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+
+  .statusActive{
+    width: max-content;
+    background-color: #57c85e;
+    padding: 3% 6% 3% 6%;
+    color: #ffffff;
+  }
+  th {
+    width: 100px; /* sostituire con la larghezza desiderata in pixel */
+  }
+  #daysLeft{
+    position: absolute;
+    background-color: #fff;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 15%;
+    left: 82%;
+    top: 12%;
+    height: 37%;
+    box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.004);
+    
+  }
+  
+
+#myChart{
+  position: absolute;
+  top: 13%!important;
+  left: 45%;
+}
+
+
+#table2 {
+  position: absolute;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 82%!important;
+  left: 15%;
+  top: 55%;
+  background-color: #fff;
+  color: rgb(124, 124, 124);
+  font-size: 1.65vh;
+  font-weight: 500;
+  box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.014);
+}
+
+.goodData{
+  color: #57c85e;
+}
+
+#table3 {
+  position: absolute;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 82%!important;
+  left: 15%;
+  top: 72%;
+  background-color: #fff;
+  color: rgb(124, 124, 124);
+  font-size: 1.65vh;
+  font-weight: 500;
+  box-shadow: 0px 5px 60px 0px rgba(0, 0, 0, 0.014);
+}
+
+
+#footer{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 95%;
+}

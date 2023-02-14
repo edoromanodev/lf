@@ -1,0 +1,13 @@
+#objectives2{
+    background-color: rgba(99, 154, 255, 0.094)!important;
+    width: 95%!important;
+    height: 706px!important;
+    border-radius: 14px;
+}
+
+
+.bigOnes{
+    font-weight: bold;
+    color: #000000;
+    width: max-content;
+}
